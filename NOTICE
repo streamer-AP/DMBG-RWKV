@@ -1,0 +1,9 @@
+DMBG-RWKV
+Copyright 2026 Tianzheng Xu, Xinyan Liu, Pengqi Huang, Xinfeng Zhang,
+Weidong Chen, Weigang Zhang, Antoni B. Chan, Qingming Huang
+
+This distribution contains code derived from RWKV-UNet, TransUNet, and
+Vision-RWKV. See THIRD_PARTY_NOTICES.md for their original licenses and
+attribution requirements. The MIT license in LICENSE applies to the
+DMBG-RWKV contributions and other portions for which this project has the
+right to grant that license.

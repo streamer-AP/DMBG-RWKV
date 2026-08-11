@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated DMBG-RWKV paper."
+title: "DMBG-RWKV: Adjacent Depth Mixing and Boundary-guided Feature Harmonization for Medical Image Segmentation"
+type: software
+version: "v1.0.0"
+authors:
+  - family-names: "Xu"
+    given-names: "Tianzheng"
+  - family-names: "Liu"
+    given-names: "Xinyan"
+  - family-names: "Huang"
+    given-names: "Pengqi"
+  - family-names: "Zhang"
+    given-names: "Xinfeng"
+  - family-names: "Chen"
+    given-names: "Weidong"
+  - family-names: "Zhang"
+    given-names: "Weigang"
+  - family-names: "Chan"
+    given-names: "Antoni B."
+  - family-names: "Huang"
+    given-names: "Qingming"
+abstract: "Official implementation of DMBG-RWKV for medical image segmentation."
+license: MIT
+repository-code: "https://github.com/streamer-AP/DMBG-RWKV.git"
+preferred-citation:
+  type: conference-paper
+  title: "DMBG-RWKV: Adjacent Depth Mixing and Boundary-guided Feature Harmonization for Medical Image Segmentation"
+  authors:
+    - family-names: "Xu"
+      given-names: "Tianzheng"
+    - family-names: "Liu"
+      given-names: "Xinyan"
+    - family-names: "Huang"
+      given-names: "Pengqi"
+    - family-names: "Zhang"
+      given-names: "Xinfeng"
+    - family-names: "Chen"
+      given-names: "Weidong"
+    - family-names: "Zhang"
+      given-names: "Weigang"
+    - family-names: "Chan"
+      given-names: "Antoni B."
+    - family-names: "Huang"
+      given-names: "Qingming"
+  year: 2026
+  conference:
+    name: "International Conference on Image and Graphics (ICIG)"
+  notes: "ICIG 2026, Paper ID: 629"

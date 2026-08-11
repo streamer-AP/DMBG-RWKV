@@ -1,0 +1,37 @@
+{
+  "dataset": {
+    "name": "ACDC",
+    "root_path": "./data/ACDC",
+    "volume_path": "./data/ACDC",
+    "splits": {
+      "train": "train",
+      "val": "val",
+      "test": "test"
+    },
+    "num_classes": 4,
+    "seq_length": 3,
+    "z_spacing": 5
+  },
+  "model": {
+    "img_size": 224,
+    "pretrained_path": "./checkpoints/net_B.pth"
+  },
+  "training": {
+    "batch_size": 5,
+    "max_epochs": 200,
+    "base_lr": 0.001,
+    "seed": 1234,
+    "max_iterations": 60000,
+    "num_workers": 8,
+    "deterministic": true,
+    "strict_deterministic": true
+  },
+  "evaluation": {
+    "eval_split": "test",
+    "is_savenii": false,
+    "test_save_dir": "./predictions"
+  },
+  "runtime": {
+    "cuda_visible_devices": "0"
+  }
+}
